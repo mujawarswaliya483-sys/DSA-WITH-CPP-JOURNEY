@@ -15,12 +15,11 @@ public:
 			}
 		}
 	}
-	return 0;
 };
 
 int main()
 {
-	int nums = [1,2,3];
+	int nums = {1,2,3};
 	subarraySum(nums,3);
 	return 0;
 }
